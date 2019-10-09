@@ -8,7 +8,7 @@ this will create our empty app.
 we can start it with 'npm start'
 
 then I have used some components which are listed in package.json.
-For saving data, I have built database in sql server. we need that to be installed . I have used WEb API for backend and used Entity framework following database first approach.
+For saving data, I have built database in sql server. we need that to be installed . I have used WEb API for backend and used Entity framework following database first approach. SQL Server is also required . for connecting to database,connectionString in the Web.config file can be updated .
 
 
 To run the app in dev environment, First we need to run the https://github.com/deepikasaharan257/carousel-project/blob/master/CollegeWebApp.sln this will start our server
