@@ -1,0 +1,52 @@
+.carousel-container{
+    display:flex;
+    position:relative;
+}
+.create-course{
+    height:50px;
+}
+.carousel-viewport{
+    white-space: nowrap;
+    overflow-y: hidden;
+    overflow-x: auto;
+    -webkit-overflow-scrolling:touch;
+    border: 1px solid black;
+    flex-grow: 1;
+    z-index:1;
+    position: relative;
+}
+.delete-button{
+    margin-right:5px;
+}
+
+.carousel-nav{
+    width:35px;
+    top:0;
+    bottom:0;
+    position:absolute;
+    cursor:pointer;
+    border:1px solid rgb(117,64,204);
+    outline: none;
+    opacity: 0.6;
+    transition:opacity 0.2s ease-in-out;
+    z-index: 3;
+}
+.carousel-nav:hover:not(.carousel-nav-disabled){
+    opacity: 0.8;
+}
+.carousel-nav:focus:not(.carousel-nav-disabled){
+    border: 1px solid darkblue;
+}
+.carousel-left-nav{
+ left:0;
+}
+.carousel-right-nav{
+right:0;
+}
+.carousel-nav-disabled{
+    opacity:0;
+    z-index: 0;
+    cursor: default;
+    user-select:none;
+    pointer-events: none;
+}

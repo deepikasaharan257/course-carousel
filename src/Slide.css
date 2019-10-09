@@ -1,0 +1,27 @@
+.slide{
+    display: inline-block;
+    vertical-align: top;
+    white-space: normal;
+    height: 200px;
+    width:270px;
+    padding: 5px;
+    background-color:lightgrey;
+    border-right: 1px solid black; 
+}
+.controls-top{
+    width:100%;
+    position:absolute;
+    bottom: 5px;
+}
+
+ .slide:last-child{
+     border-right:none;
+ }
+ @media(min-width:1000px){
+     .slide{
+         width: 200px;
+     }
+     .edit-button{
+        font-size: 20px;
+    }
+ }

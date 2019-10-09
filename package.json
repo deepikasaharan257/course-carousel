@@ -1,0 +1,45 @@
+{
+  "name": "college-carousel",
+  "version": "0.1.0",
+  "homepage" : "http://deepikasaharan257.github.io/college-carousel",
+  "private": true,
+  "dependencies": {
+    "@material-ui/core": "^4.5.0",
+    "@material-ui/icons": "^4.4.3",
+    "axios": "^0.19.0",
+    "bootstrap": "^4.3.1",
+    "classname": "0.0.0",
+    "classnames": "^2.2.6",
+    "lodash.throttle": "^4.1.1",
+    "moment": "^2.24.0",
+    "normalize.css": "^8.0.1",
+    "react": "^16.10.2",
+    "react-bootstrap": "^1.0.0-beta.14",
+    "react-dom": "^16.10.2",
+    "react-render-html": "^0.6.0",
+    "react-router-dom": "^5.1.2",
+    "react-scripts": "3.2.0"
+  },
+  "scripts": {
+    "start": "react-scripts start",
+    "build": "react-scripts build",
+    "test": "react-scripts test",
+    "eject": "react-scripts eject"
+  },
+  "proxy": "http://localhost:49902",
+  "eslintConfig": {
+    "extends": "react-app"
+  },
+  "browserslist": {
+    "production": [
+      ">0.2%",
+      "not dead",
+      "not op_mini all"
+    ],
+    "development": [
+      "last 1 chrome version",
+      "last 1 firefox version",
+      "last 1 safari version"
+    ]
+  }
+}
